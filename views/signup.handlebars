@@ -1,0 +1,68 @@
+{{> navbar}}
+<div class="row">
+    <div class="login-dark">
+
+        <form method="post" action="/login">
+            <h2 class="sr-only">Login Form</h2>
+
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group">
+                <input class="form-control"  name="username" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">Log In</button>
+            </div>
+        </form>
+      <img src="bckground.jpg" alt="piooop"/> 
+      <img src
+
+
+    </div>
+</div>
+<div class="register-photo">
+    <div class="form-container">
+        <form method="post" action="/register">
+            <h2 class="text-center">{{title}}</h2>
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name"placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="passwordMatch">Re-Enter Password</label>
+                <input class="form-control" type="password" name="passwordMatch" placeholder="Re-Enter Password">
+            </div>
+            <div class="form-group">
+                    <label for="birthdate">Birth Date</label>
+                    <input type="text" class="form-control" id="birthdate" placeholder="MM/DD/YYYY">
+                </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="F"> Female
+                    </label>
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="M"> Male
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">Sign Up</button>
+            </div><a href="/login" class="already">You already have an account? Login here.</a></form>
+    </div>
+</div>
+{{> footer}}
+<script src="../models/JS/sign-up.js" charset="utf-8"></script>
