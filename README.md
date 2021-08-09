@@ -1,9 +1,8 @@
-# paradigm-v2
-Para-Ding V.2
+# Para-Ding V.2
 
 -Para-Ding V.2  is a full stack web application where a user can register, browse in a job database, select jobs and apply while keeping record of user’s application history, and request authentication to have access to the main functionality.
 
-Table of contents
+# Table of contents
 Para-Ding V.2
 Table of contents
 The Requirements
@@ -14,6 +13,8 @@ Credits, tools and other references
 Contributing
 Questions
 The challenge
+
+# Requirements 
 Create a Full Stack Web Application with the following features:
 
  -Use a Node and Express web server
@@ -31,20 +32,20 @@ Create a Full Stack Web Application with the following features:
 -The development process
 -In order to accomplish the challenge, the following steps were done:
 
-MVPs
+# MVPs
 (![Screenshot 2021-08-09 140305](https://user-images.githubusercontent.com/81047652/128752723-4e8b426e-1852-4ca2-8c2c-709f226166a4.png)
 
-The Output
-With the described process we were able to create an angaging, useful and efficient full stack web application.
+# The Output
+With the described process we were able to create an engaging, useful and efficient full stack web application.
 
-User stories
+# User stories
+![proposal](https://user-images.githubusercontent.com/81047652/128753263-1f3297dd-d47a-493e-86a3-ed759d41f2b2.png)
 
-As a user I want to navigate through categories, and select a book, so I can read detail information about it
-As a user I want to select books, add them to a purchasing cart, review information and confirm purchase, so I will receive a confirmation of my operation.
-As a user I want to pass through an authentication process, so that I can feel confident that the site is secure and keep the record of my operations.
-The application
+[proposal.pdf](https://github.com/Avabjwill/paradigm-v2/files/6956468/proposal.pdf)
 
-Installation and Usage
+# The application
+
+# Installation and Usage
 The project was uploaded to GitHub at the following repository: https://github.com/jorguzman100/project2
 
 You can access the deployed application with the Heroku link: https://safe-basin-04900.herokuapp.com/
@@ -61,16 +62,13 @@ Run the app with:
 
 node server.js
 Credits, tools and other references
-Colaborators
 
-Our appreciation for those who have contributed to the project:
-
-
+# Colaborators
 Project Leader ,Front End and BackEnd
 
 Ava Williams 
 
-Third Party Assets
+# Third Party Assets
 
 Chalk
 
@@ -80,7 +78,7 @@ Prettier for Handlerbars
 
 Bootstrap
 
-Contributing
+# Contributing
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
