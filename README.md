@@ -1,10 +1,7 @@
 # paradigm-v2
 Para-Ding V.2
-Para-Ding V.2  is a full stack web application where a user can register, browse in a job database, select jobs and apply while keeping record of user’s application history, and request authentication to have access to the main functionality.
 
-License
-
-GitHub
+-Para-Ding V.2  is a full stack web application where a user can register, browse in a job database, select jobs and apply while keeping record of user’s application history, and request authentication to have access to the main functionality.
 
 Table of contents
 Para-Ding V.2
@@ -19,32 +16,23 @@ Questions
 The challenge
 Create a Full Stack Web Application with the following features:
 
- Use a Node and Express web server
- Backed by a MySQL database with a Sequelize ORM
- Use an existing public dataset to power the database (Kaggel 7K Books)
- Migration strategy using seeds and schema files
- Routes for retrieving and adding new data
- Incorporate authentication (Passport, BCrypt)
- Folder structure that meets the MVC paradigm
- Use Handlebars for server-side templating
- Protected API keys in Node with environment variables
- Polished front end/UI
- Meet good-quality coding standards (indentation, scoping, naming, etc.)
- Deployed using Heroku (with data)
-The development process
-In order to accomplish the challenge, the following steps were done:
+ -Use a Node and Express web server
+ -Backed by a MySQL database with a Sequelize ORM
+ -Use an existing public dataset to power the database (Kaggel 7K Books)
+ -Migration strategy using seeds and schema files
+ -Routes for retrieving and adding new data
+ -Incorporate authentication (Passport, BCrypt)
+ -Folder structure that meets the MVC paradigm
+ -Use Handlebars for server-side templating
+ -Protected API keys in Node with environment variables
+ -Polished front end/UI
+ -Meet good-quality coding standards (indentation, scoping, naming, etc.)
+ -Deployed using Heroku (with data)
+-The development process
+-In order to accomplish the challenge, the following steps were done:
 
-Brain storming to define the project main concept.
-External datasets research.
-Define the purpose, and concept of the application.
-Define the team members roles.
-Define MVPs (Minimum Viable Products) and due dates.
-Create sketches.
-Define the routes, requests and responses structure.
-Front end and back end coding.
-Integrate full stack application.
-Final review and proper documentation.
 MVPs
+(![Screenshot 2021-08-09 140305](https://user-images.githubusercontent.com/81047652/128752723-4e8b426e-1852-4ca2-8c2c-709f226166a4.png)
 
 The Output
 With the described process we were able to create an angaging, useful and efficient full stack web application.
@@ -55,8 +43,6 @@ As a user I want to navigate through categories, and select a book, so I can rea
 As a user I want to select books, add them to a purchasing cart, review information and confirm purchase, so I will receive a confirmation of my operation.
 As a user I want to pass through an authentication process, so that I can feel confident that the site is secure and keep the record of my operations.
 The application
-
-Screenshot1 Screenshot2 Screenshot3 Screenshot4 Screenshot5 Screenshot6
 
 Installation and Usage
 The project was uploaded to GitHub at the following repository: https://github.com/jorguzman100/project2
@@ -89,6 +75,8 @@ Third Party Assets
 Chalk
 
 BCrypt hash password
+
+Prettier for Handlerbars
 
 Bootstrap
 
