@@ -19,18 +19,17 @@ Create a Full Stack Web Application with the following features:
 
  -Use a Node and Express web server
  -Backed by a MySQL database with a Sequelize ORM
- -Use an existing public dataset to power the database (Kaggel 7K Books)
+ - Gathered job information from sites such as indeed and Linkedin
  -Migration strategy using seeds and schema files
  -Routes for retrieving and adding new data
- -Incorporate authentication (Passport, BCrypt)
+ -Incorporate authentication (BCrypt)
  -Folder structure that meets the MVC paradigm
- -Use Handlebars for server-side templating
+ -Use Handlebars and HTML for server-side templating
  -Protected API keys in Node with environment variables
  -Polished front end/UI
  -Meet good-quality coding standards (indentation, scoping, naming, etc.)
  -Deployed using Heroku (with data)
 -The development process
--In order to accomplish the challenge, the following steps were done:
 
 # MVPs
 (![Screenshot 2021-08-09 140305](https://user-images.githubusercontent.com/81047652/128752723-4e8b426e-1852-4ca2-8c2c-709f226166a4.png)
@@ -46,13 +45,6 @@ With the described process we were able to create an engaging, useful and effici
 # The application
 
 # Installation and Usage
-The project was uploaded to GitHub at the following repository: https://github.com/jorguzman100/project2
-
-You can access the deployed application with the Heroku link: https://safe-basin-04900.herokuapp.com/
-
-To install the project follow these steps:
-
-Clone the application from GitHub with:
 
 git clone [clone link from GitHub]
 From the root folder, install the dependencies with:
